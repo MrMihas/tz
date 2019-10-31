@@ -221,10 +221,20 @@
  			}
  		}
 	}
-	.btn-more{
+
+
+	.container-btn{
+		width: 100%;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: flex-end;
+.btn-more{
 			position: relative;
 			right: 0;
-			bottom: 10px;
+			bottom: -10px;
 			font-family: Roboto;
 			font-style: normal;
 			font-weight: bold;
@@ -241,6 +251,9 @@
 			z-index: 999;
 	
 	}
+
+	}
+	
 #modal_view{
 	position: fixed;
 	display: none;

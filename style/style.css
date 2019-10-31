@@ -183,10 +183,22 @@
   padding: 11px 59px;
   border: 1px solid #fff;
 }
-.main .btn-more {
+.main .container-btn {
+  width: 100%;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.main .container-btn .btn-more {
   position: relative;
   right: 0;
-  bottom: 10px;
+  bottom: -10px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
