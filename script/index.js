@@ -8,11 +8,12 @@ $(document).ready(function() {
       $('.description').hide('normal');
       $(this).next('.description').toggle('normal');
 
-      $('.btn-description').removeClass('btn-description__active span:nth-child(1)');
-      $(this).toggleClass('btn-description__active span:nth-child(1)');
+    //  $('.btn-description').removeClass('btn-description__active span:nth-child(1)');
+    //  $(this).toggleClass('btn-description__active span:nth-child(1)');
 
-      $('.btn-description').removeClass('name-project__active');
-      $(this).toggleClass('name-project__active');
+      
+      $('.btn-description').prev().removeClass('name-project__active');
+      $(this).prev().toggleClass('name-project__active');
 
     } else $('.description').hide('normal');
     return false;
